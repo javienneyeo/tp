@@ -21,7 +21,7 @@ public class UpdateCommand extends Command {
     public void printFlashCard(Flashcard flashcard) {
         System.out.println("Q: " + flashcard.getQuestion());
         System.out.println("A: " + flashcard.getAnswer());
-        System.out.println("D: " + flashcard.getDueDate());
+//        System.out.println("D: " + flashcard.getDueDate());
     }
 
     public void printFlashCards(ArrayList<Flashcard> flashcards) {
